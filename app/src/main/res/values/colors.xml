@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">@color/transparente</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#00DD51</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cor_tema">#003333</color>
+    <color name="cor_tema_claro">#006464</color>
+    <color name="cor_tema_escuro">#002828</color>
+    <color name="transparente">#00000000</color>
+    <color name="transparente_button">#40003333</color>
+    <color name="fundo_buy">#19B88B</color>
+    <color name="gray">#C5C5C5</color>
+    <color name="vermelho_select">#7A0000</color>
+    <color name="vermelhoescuro_select">#330000</color>
+    <color name="laranja_escuro">#4A0F00</color>
+    <color name="azul_escuro">#00344C</color>
+    <color name="branco_transparente">#BFFFFFFF</color>
+    <color name="dourado">#FFC400</color>
+    />
+</resources>

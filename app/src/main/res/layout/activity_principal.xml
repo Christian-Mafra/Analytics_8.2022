@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fundo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cor_tema"
+        android:elevation="0dp"
+        android:orientation="vertical"
+        tools:context=".activitys.MainActivity">
+
+    <FrameLayout
+            android:id="@+id/frama_principal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/button_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/cor_tema_claro"
+            android:backgroundTint="@color/cor_tema_claro"
+            app:fabCradleMargin="7dp"
+            app:fabCradleRoundedCornerRadius="30dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/button_navigation_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/transparente"
+                app:itemIconSize="35dp"
+                app:itemIconTint="@color/button_item_background"
+                app:labelVisibilityMode="unlabeled"
+                app:menu="@menu/button_menu" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons6"
+            app:backgroundTint="#FF9800"
+            app:layout_anchor="@id/button_app_bar"
+            app:maxImageSize="58dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
