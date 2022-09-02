@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="200dp"
-        android:layout_height="130dp"
+        android:layout_height="112dp"
         android:layout_marginStart="8dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="8dp"
@@ -18,5 +18,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/glowing" />
+            app:srcCompat="@drawable/glowing"/>
 </androidx.cardview.widget.CardView>

@@ -43,6 +43,7 @@ public class AdapterCartazVertical extends RecyclerView.Adapter<AdapterCartazVer
                 intent.putExtra("foto",cartazVerticalModela.getFoto());
                 intent.putExtra("nome",""+cartazVerticalModela.getNome());
                 intent.putExtra("desc",""+cartazVerticalModela.getDesc());
+                intent.putExtra("idVideo", ""+cartazVerticalModela.getIdVideo());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }

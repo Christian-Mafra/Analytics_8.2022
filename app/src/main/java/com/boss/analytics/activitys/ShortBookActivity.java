@@ -57,23 +57,27 @@ public class ShortBookActivity extends AppCompatActivity {
     public void preparaCartazVertical(){
         ShortbookModel g = new ShortbookModel(R.drawable.pp
                 ,"Potêncial padrão de redução"
-                ,"É a espontaneidade, ou a tendência de uma espécie química adquirir elétrons e, desse modo, ser reduzida.");
+                ,"É a espontaneidade, ou a tendência de uma espécie química adquirir elétrons e, desse modo, ser reduzida.","");
         this.listashortbook.add(g);
         g = new ShortbookModel(R.drawable.sulfetosacidos
                 , "Sulfetos Insolúveis em Meio Ácido"
-                ,"Em breve");
+                ,"Em breve",
+                "");
         this.listashortbook.add(g);
         g = new ShortbookModel(R.drawable.sulfetosbasicos
                 ,"Sulfetos Insolúveis em Meio Básico"
-                ,"Em breve");
+                ,"Em breve",
+                "");
         this.listashortbook.add(g);
         g = new ShortbookModel(R.drawable.carbonatosinsoluveisroteiro
                 ,"Carbonatos Insolúveis"
-                ,"Em breve");
+                ,"Em breve",
+                "");
         this.listashortbook.add(g);
         g = new ShortbookModel(R.drawable.cationssoluveisroteiro
                 ,"Cátions Solúveis"
-                ,"Em breve");
+                ,"Em breve",
+                "");
         this.listashortbook.add(g);
     }
 

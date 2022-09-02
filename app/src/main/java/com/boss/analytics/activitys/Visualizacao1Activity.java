@@ -23,11 +23,15 @@ import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
 
+import java.util.Objects;
+
 public class Visualizacao1Activity extends AppCompatActivity {
     private ImageView img;
     private TextView txtNomeConteudo;
     private TextView txtDescConteudo;
     private Button btnVamosLa;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,18 +76,26 @@ public class Visualizacao1Activity extends AppCompatActivity {
 
         btnVamosLa = findViewById(R.id.btnVamosLa);
         btnVamosLa.setOnClickListener(new View.OnClickListener() {
+            private String idVideo = getIntent().getStringExtra("idVideo");
             private String a1 = getIntent().getStringExtra("desc");
             private String a2 = "Em breve";
             @Override
             public void onClick(View v) {
-                if(!a1.equals(a2)){
-                    Intent intent = new Intent(getApplicationContext(),PDFActivity.class);
+                if(!Objects.equals(idVideo, "")){
+                    Intent intent = new Intent(getApplicationContext(),YoutubeActivity.class);
+                    intent.putExtra("idVideo", idVideo);
                     startActivity(intent);
-                }else{
-                    finish();
-                    Intent intent = new Intent(getApplicationContext(), FragmentsActivity.class);
-                    intent.putExtra("fragments",8);
-                    startActivity(intent);
+                }
+                else {
+                    if (!a1.equals(a2)) {
+                        Intent intent = new Intent(getApplicationContext(), PDFActivity.class);
+                        startActivity(intent);
+                    } else {
+                        finish();
+                        Intent intent = new Intent(getApplicationContext(), FragmentsActivity.class);
+                        intent.putExtra("fragments", 8);
+                        startActivity(intent);
+                    }
                 }
             }
         });

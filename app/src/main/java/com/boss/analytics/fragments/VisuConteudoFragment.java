@@ -44,17 +44,17 @@ public class VisuConteudoFragment extends Fragment {
         return view;
     }
     public void preparaMaisConteudo(){
-        CartazVerticalModel h = new CartazVerticalModel(R.drawable.cloretosinsoluveisroteiro,"Cloretos Insoluveis","O primeiro grupo de cátions é caracterizado por conter cátions que precipitam com o cloreto");
+        CartazVerticalModel h = new CartazVerticalModel(R.drawable.cloretosinsoluveisroteiro,"Cloretos Insoluveis","O primeiro grupo de cátions é caracterizado por conter cátions que precipitam com o cloreto","");
         this.maisDetalhes.add(h);
-        h = new CartazVerticalModel(R.drawable.sulfetosacidos,"Sulfetos Insoluveis em Meio Ácido","Em breve");
+        h = new CartazVerticalModel(R.drawable.sulfetosacidos,"Sulfetos Insoluveis em Meio Ácido","Em breve","");
         this.maisDetalhes.add(h);
-        h = new CartazVerticalModel(R.drawable.sulfetosbasicos,"Sulfetos Insoluveis em Meio Básico","Em breve");
+        h = new CartazVerticalModel(R.drawable.sulfetosbasicos,"Sulfetos Insoluveis em Meio Básico","Em breve","");
         this.maisDetalhes.add(h);
-        h = new CartazVerticalModel(R.drawable.carbonatosinsoluveisroteiro,"Carbonatos Insoluveis","Em breve");
+        h = new CartazVerticalModel(R.drawable.carbonatosinsoluveisroteiro,"Carbonatos Insoluveis","Em breve","");
         this.maisDetalhes.add(h);
-        h = new CartazVerticalModel(R.drawable.cationssoluveisroteiro,"Cations Soluveis","Em breve");
+        h = new CartazVerticalModel(R.drawable.cationssoluveisroteiro,"Cations Soluveis","Em breve","");
         this.maisDetalhes.add(h);
-        h = new CartazVerticalModel(R.drawable.cloretosinsoluveisroteiro,"Cloretos Insoluveis","Em breve");
+        h = new CartazVerticalModel(R.drawable.cloretosinsoluveisroteiro,"Cloretos Insoluveis","Em breve","");
         this.maisDetalhes.add(h);
     }
 }

@@ -136,36 +136,28 @@ public class ViewPagerConteudoFragment extends Fragment {
     //---------------------------------------------------------------------------------------------------------------------------------//
 
     public void preparaCartazVertical(){
-        CartazVerticalModel g = new CartazVerticalModel(R.drawable.cloretosinsoluveisroteiro,"Cloretos Insolúveis","O primeiro grupo de cátions é caracterizado por conter cátions que precipitam com o cloreto");
+        CartazVerticalModel g = new CartazVerticalModel(R.drawable.cloretosinsoluveisroteiro,"Cloretos Insolúveis","O primeiro grupo de cátions é caracterizado por conter cátions que precipitam com o cloreto","");
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.sulfetosacidos, "Sulfetos Insolúveis em Meio Ácido","Em breve");
+        g = new CartazVerticalModel(R.drawable.sulfetosacidos, "Sulfetos Insolúveis em Meio Ácido","Em breve","");
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.sulfetosbasicos,"Sulfetos Insolúveis em Meio Básico","Em breve");
+        g = new CartazVerticalModel(R.drawable.sulfetosbasicos,"Sulfetos Insolúveis em Meio Básico","Em breve","");
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.carbonatosinsoluveisroteiro,"Carbonatos Insolúveis","Em breve");
+        g = new CartazVerticalModel(R.drawable.carbonatosinsoluveisroteiro,"Carbonatos Insolúveis","Em breve","");
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.cationssoluveisroteiro,"Cátions Solúveis","Em breve");
-        this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.sulfetosacidos, "Sulfetos Insolúveis em Meio Ácido","Em breve");
-        this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.sulfetosbasicos,"Sulfetos Insolúveis em Meio Básico","Em breve");
-        this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.carbonatosinsoluveisroteiro,"Carbonatos Insolúveis","Em breve");
-        this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.cationssoluveisroteiro,"Cátions Solúveis","Em breve");
+        g = new CartazVerticalModel(R.drawable.cationssoluveisroteiro,"Cátions Solúveis","Em breve","");
         this.listacartazVerticalModels.add(g);
     }
 
     public void preparaCartazHorizontal(){
-        CartazHorizontalModel h = new CartazHorizontalModel(R.drawable.image1,"Fotoluminescência","Em breve");
+        CartazHorizontalModel h = new CartazHorizontalModel(R.drawable.determinacaodesalinidadedeamostradeaguadomar,"Determinação de salinidade de amostra de água do mar","Em breve","VvZ-b8mQCmg");
         this.listcartazHorizontalModels.add(h);
-        h = new CartazHorizontalModel(R.drawable.close,"Solução tampão","Em breve");
+        h = new CartazHorizontalModel(R.drawable.padronizacaopelometododemohrfajansevolhard,"Padronização pelo método de Mohr, Fajans e Volhard","Em breve", "OTNFAMFkPf4&t=7s");
         this.listcartazHorizontalModels.add(h);
-        h = new CartazHorizontalModel(R.drawable.joyce,"Espectrofotometria","Em breve");
+        h = new CartazHorizontalModel(R.drawable.joyce707x500,"Titulação por oxirredução","Em breve", "OTNFAMFkPf4&t=7s");
         this.listcartazHorizontalModels.add(h);
-        h = new CartazHorizontalModel(R.drawable.anion,"Análise de água em óleo - TOG","Em breve");
+        h = new CartazHorizontalModel(R.drawable.anion707,"Análise de água em óleo - TOG","Em breve", "OTNFAMFkPf4&t=7s");
         this.listcartazHorizontalModels.add(h);
-        h = new CartazHorizontalModel(R.drawable.aniong2,"Titulação volumétrica,","Em breve");
+        h = new CartazHorizontalModel(R.drawable.aniong2707,"Titulação volumétrica,","Em breve", "OTNFAMFkPf4&t=7s");
         this.listcartazHorizontalModels.add(h);
     }
 

@@ -40,6 +40,7 @@ public class AdapterCartazHorizontal extends RecyclerView.Adapter<AdapterCartazH
                 intent.putExtra("foto",horizontalModel.getFoto());
                 intent.putExtra("nome",""+horizontalModel.getNome());
                 intent.putExtra("desc",""+horizontalModel.getDesc());
+                intent.putExtra("idVideo", ""+horizontalModel.getIdVideo());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
